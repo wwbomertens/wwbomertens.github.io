@@ -1,0 +1,84 @@
+/*
+    colours:
+    primary branding    = #d8b24f
+    header 4            = #434344
+    for grey paragraphs = #878e94
+    font-family         = 'Montserrat', sans-serif
+    box-shadow: 0 4px 44px 0 rgba(0, 0, 0, 0.07);
+*/
+h1 {
+    color:powderblue;
+    font-size:48px;
+}
+.IDE {
+    color: powderblue;
+    font-size: 18px;
+}
+.profileimg {
+    width: 200px;
+    height: 200px;
+    border: 6px solid #d8b24f;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+header div{
+    display:inline-block;
+    width:50%;
+}
+header{
+    background-image:url(../img/background-image.jpg);
+    background-size:cover;
+    height: 220px;
+}
+.content-header{
+    color:antiquewhite;
+}
+a {
+    font-size: 22px;
+    margin-right: 30px;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    padding:5% 20%;
+}
+html, body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.64;
+    color: #202020;
+    border-top: 3px solid #d8b24f;
+
+}
+section {
+    align-items: center;
+    padding: 2% 20%;
+}
+.box {
+    box-shadow: 0 4px 44px 0 rgba(0, 0, 0, 0.07);
+    text-align: center;
+    margin: 50px;
+}
+.job {
+    display: flex;
+    margin: 50px;
+}
+    .job img {
+        align-self: flex-start;
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+.footertag {
+    background-color: red;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    padding: 1% 20%;
+    color:antiquewhite;
+}
+.logos {
+    align-self: flex-end;
+}
