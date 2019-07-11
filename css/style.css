@@ -6,37 +6,92 @@
     font-family         = 'Montserrat', sans-serif
     box-shadow: 0 4px 44px 0 rgba(0, 0, 0, 0.07);
 */
-h1 {
-    color:powderblue;
-    font-size:48px;
-}
+
+/* Algemene CSS opmaak voor alle onderdelen*/
+    /* Opmaak van classes*/
+
+    /* Opmaak van algemene onderdelen*/
+        h1 {
+        /*  HTML sectie: H1 header sectie overal <h1>
+        *   Doel CSS: stijlopmaak van kop h1
+        *
+        */
+
+        /*Kleur van de tekst blauw maken*/
+        color:powderblue;
+        /* grootte text 48 pixels maken*/
+        font-size:48px;
+    }
+
+    a {
+        font-size: 22px;
+        margin-right: 30px;
+        color: white;
+    }
+
+/* CSS opmaak voor de header */
+    /* Opmaak van classes*/
+    .profileimg {
+        /*  HTML sectie: .profileimg class
+        *   Doel CSS: stijlopmaak van classe profileimg (profielfoto)
+        *
+        */
+        /* Breedte van de foto*/
+        width: 200px;
+        /* Hoogte van de foto */
+        height: 200px;
+        /* Rand van de foto met dikte, type en kleur*/
+        border: 6px solid #d8b24f;
+        /* Grootte van de cirkel (50%) is rondje en 0% is vierkant*/
+        border-radius: 50%;
+        /* Áfstand rechts van de profiel foto */
+        margin-right: 5%;
+    }
+        
+    .content-header {
+        /*  HTML sectie: .content-header
+        *   Doel CSS: stijlopmaak van classe content header (tekstgedeelte)
+        *
+        */
+        /*Tonen hoe de tekst getoond wordt inline block is dat het onder elkaar staat  */
+        display: inline-block;
+        /*breedte van de header tekst. Kan niet groter worden dan 50% in verband met padding */
+        width: 50%;
+        /*Kleur van de tekst en alle onderdelen erin*/
+        color: antiquewhite;
+    }
+    
+    /* Opmaak van algemene onderdelen*/
+    header {
+        /*  HTML sectie: header
+        *   Doel CSS: stijlopmaak van de header (vooral achtergrond plaatje)
+        *
+        */
+        /* Dit is de achtergond plaatje van de header */
+        background-image: url(../img/background-image.jpg);
+        /* Dit bevat het tekst gedeelte van de header cover betekent dat het gehele plaatje wordt getoond (auto-zoom) */
+        background-size: cover;
+        /* Dit is de hoogte van de applicatie */
+        height: 220px;
+    }
+
+
+    
+
+
 .IDE {
     color: powderblue;
     font-size: 18px;
 }
-.profileimg {
-    width: 200px;
-    height: 200px;
-    border: 6px solid #d8b24f;
-    border-radius: 50%;
-    margin-right: 5%;
-}
-header div{
-    display:inline-block;
-    width:50%;
-}
-header{
-    background-image:url(../img/background-image.jpg);
-    background-size:cover;
-    height: 220px;
-}
-.content-header{
-    color:antiquewhite;
-}
-a {
+
+
+
+
+
+.github {
     font-size: 22px;
-    margin-right: 30px;
-    color: white;
+    margin-left: 20px;
+    color: darkred;
 }
 
 .flex-container {
@@ -61,6 +116,9 @@ section {
     box-shadow: 0 4px 44px 0 rgba(0, 0, 0, 0.07);
     text-align: center;
     margin: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:10px;
 }
 .job {
     display: flex;
