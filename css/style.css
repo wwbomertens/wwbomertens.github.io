@@ -41,7 +41,7 @@
         /* Hoogte van de foto */
         height: 200px;
         /* Rand van de foto met dikte, type en kleur*/
-        border: 6px solid #d8b24f;
+        border: 6px solid rgb(225,39,28);
         /* Grootte van de cirkel (50%) is rondje en 0% is vierkant*/
         border-radius: 50%;
         /* Áfstand rechts van de profiel foto */
@@ -76,16 +76,18 @@
     }
 
 
-    
+
 
 
 .IDE {
-    color: powderblue;
-    font-size: 18px;
+    color: rgb(184, 189, 194);
+    font-size: 16px;
 }
 
-
-
+.Code {
+    color: rgb(216, 178, 79);
+    font-size: 18px;
+}
 
 
 .github {
@@ -105,7 +107,7 @@ html, body {
     font-size: 16px;
     line-height: 1.64;
     color: #202020;
-    border-top: 3px solid #d8b24f;
+    border-top: 3px solid rgb(225,39,28);
 
 }
 section {
