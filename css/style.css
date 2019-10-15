@@ -29,6 +29,9 @@
         color: white;
     }
 
+.p {
+    border-style: dashed;
+}
 /* CSS opmaak voor de header */
     /* Opmaak van classes*/
     .profileimg {
@@ -47,7 +50,8 @@
         /* Áfstand rechts van de profiel foto */
         margin-right: 5%;
     }
-        
+
+    
     .content-header {
         /*  HTML sectie: .content-header
         *   Doel CSS: stijlopmaak van classe content header (tekstgedeelte)
